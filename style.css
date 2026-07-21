@@ -1,0 +1,102 @@
+@keyframes fadeup {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* form login */
+#form-login {display: flex; flex-direction: column; border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); padding: 20px; 
+    gap: 8px;}
+
+#body-1 {font-family: Arial, Helvetica, sans-serif; margin: 10px; 
+    justify-content: center; align-items: center; display: flex; 
+    flex-direction: column; gap: 20px;}
+
+.section-1 {display: flex; flex-direction: column;}
+
+#name {padding: 8px; border: 1px solid #ccc; border-radius: 8px;}
+#name:focus {border-color: #4a90e2; outline: none;}
+#password {padding: 8px; border: 1px solid #ccc; border-radius: 8px}
+#password:focus {border-color: #4a90e2; outline: none;}
+#button {padding: 8px; border-radius: 8px; background-color: #4a90e2; 
+    color: white;}
+#button:hover {background-color: #1560b6;}
+
+#hero {animation: fadeup 2s ease-out;}
+
+
+/* landing page */
+#body-2 {font-family: Arial, Helvetica, sans-serif; 
+     color: white;}
+
+#nav-2 {display: flex; flex-direction: row; justify-content: 
+    center; gap: 20px; position: absolute; left: 50%; 
+    transform: translateX(-50%);}
+
+#background-utama {background-image: linear-gradient(rgba(0,0,0,0.2), 
+    rgba(0,0,0,0.2)), url("foto/background.jpeg"); 
+    background-size: cover; background-position: center;
+    padding: 20px; min-height: 70vh; display: flex; 
+    flex-direction: column;}
+
+#masuk {display: flex; flex-direction: row; gap: 10px; border-radius: 100px;
+    justify-content: right; }
+#nav-utama {display: flex; gap: 20px; justify-content: right; 
+    position: relative;}
+
+#gratis-admin {display: flex; flex-direction: column; justify-content: center;
+     text-align: center; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+
+#transfer-cepat {display: flex; flex-direction: column; justify-content: center;
+     text-align: center;  padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+
+#aman {display: flex; flex-direction: column; text-align: center; 
+    text-align: center; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+
+#fitur {display: flex; flex-direction: row; gap: 40px; justify-content: center;
+    padding: 20px; color:black}
+
+#hero-text {text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+     animation: fadeup 2s ease-out;}
+
+#signup {background-color: #1560b6; border-radius: 20px; color: white; padding: 2px 20px}
+#signup:hover {background-color: #0a4d9a;}
+
+/* dashbord */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#card {color: white; background-color: #1560b6; padding: 20px; 
+    border-radius: 30px; margin: 32px; animation: fadeup 1s ease-out;}
+
+#transfer {display: flex; flex-direction: column; align-items: center; gap: 4px; 
+    padding: 16px; padding-bottom: 20px; animation: fadeup 1s ease-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); border-radius: 5px;}
+#transfer:hover {background-color: #ccc;}
+
+#top-up {display: flex; flex-direction: column; align-items: center; gap: 4px; 
+    padding: 16px; padding-bottom: 20px; animation: fadeup 1s ease-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); border-radius: 5px;}
+#top-up:hover {background-color: #ccc;}
+
+#tarik-tunai {display: flex; flex-direction: column; align-items: center; gap: 4px; 
+    padding: 16px; padding-bottom: 20px; animation: fadeup 1s ease-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); border-radius: 5px;}
+#tarik-tunai:hover {background-color: #ccc;}
+
+#aksi {display: flex; flex-direction: row; align-items: center; 
+    justify-content: center; padding: 16px; gap: 64px; margin: 32px; }
+
+@media (max-width: 600px) {
+    #aksi {gap: 14px;}
+    h1 {font-size: 22px;}
+    h2 {font-size: 18px;}
+    h3 {font-size: 16px;}
+    p {font-size: 14px;}
+}
